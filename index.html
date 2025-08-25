@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hello World Application</h1>
+        </header>
+        
+        <main>
+            <section class="form-section">
+                <!-- ユーザー名入力フォーム -->
+                <form id="greeting-form">
+                    <div class="form-group">
+                        <label for="username">あなたのお名前：</label>
+                        <input type="text" id="username" name="username" placeholder="名前を入力してください" maxlength="50">
+                        <div id="error-message" class="error-message" aria-live="polite"></div>
+                    </div>
+                    <button type="submit" id="submit-btn">挨拶する</button>
+                </form>
+            </section>
+            
+            <section class="result-section">
+                <!-- 挨拶メッセージの表示エリア -->
+                <div id="greeting-result" class="greeting-result" aria-live="polite"></div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Hello World App</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
