@@ -1,3 +1,40 @@
-# javascript-hello-world
+# Hello World Application
 
-> Initial repository created by agent
+シンプルなユーザー名入力フォーム付きのHello Worldウェブアプリケーションです。
+
+## 機能
+
+- ユーザー名の入力フォーム
+- 「Hello, [ユーザー名]!」形式での挨拶表示
+- ブラウザコンソールへの同様のメッセージ出力
+- 空入力のバリデーション
+- レスポンシブデザイン対応
+
+## ファイル構成
+
+- `index.html` - メインHTMLファイル
+- `css/styles.css` - スタイル定義
+- `js/script.js` - JavaScriptの機能実装
+
+## 使用方法
+
+1. `index.html`をブラウザで開きます
+2. 名前を入力フォームに入力します
+3. 「挨拶する」ボタンをクリックします
+4. 画面上に挨拶メッセージが表示されます
+5. 同時にブラウザのコンソールにも同じメッセージが出力されます
+
+## ブラウザ互換性
+
+以下のブラウザで動作確認済みです：
+- Google Chrome (最新版)
+- Mozilla Firefox (最新版)
+- Microsoft Edge (最新版)
+- Safari (最新版)
+
+## 開発メモ
+
+- 純粋なHTML、CSS、JavaScriptのみで実装されています
+- 外部ライブラリは使用していません
+- セマンティックなHTMLマークアップを使用しています
+- アクセシビリティに配慮したUI実装を行っています
